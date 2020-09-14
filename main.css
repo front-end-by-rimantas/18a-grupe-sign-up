@@ -20,9 +20,15 @@ body {
         .left-column {
             display: inline-block;
             width: 40%;
+            height: 440px;
+            margin-top: 30px;
             float: left;
             padding: 40px;
             background-color: #3F36A7;
+            background-image: url(./kalnas.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
             color: #fff;
         }
             .title {
