@@ -13,9 +13,9 @@ body {
 }
     .container {
         display: inline-block;
-        width: 600px;
+        width: 800px;
         margin-top: 100px;
-        margin-left: calc((100% - 600px) / 2);
+        margin-left: calc((100% - 800px) / 2);
     }
         .left-column {
             display: inline-block;
@@ -23,6 +23,7 @@ body {
             float: left;
             padding: 40px;
             background-color: #3F36A7;
+            color: #fff;
         }
             .title {
 
@@ -31,7 +32,7 @@ body {
 
             }
                 .link {
-
+                    color: #fff;
                 }
                 .ampersand {
                     
@@ -44,3 +45,58 @@ body {
             padding: 60px;
             background-color: #fff;
         }
+            .close {
+                display: inline-block;
+            }
+            .form {
+                display: inline-block;
+                width: 100%;
+            }
+                .form-row {
+                    display: inline-block;
+                    width: 100%;
+                    margin-bottom: 30px;
+                }
+                    .form-row:last-of-type {
+                        margin-bottom: 0;
+                    }
+                    label {
+                        display: inline-block;
+                        width: 100%;
+                        margin-bottom: 5px;
+                        font-size: 16px;
+                        text-transform: uppercase;
+                    }
+                    input {
+                        display: inline-block;
+                        width: 100%;
+                        border: none;
+                        border-bottom: 1px solid #ccc;
+                        font-size: 20px;
+                    }
+                    .btn {
+                        display: inline-block;
+                        background-color: #3F36A7;
+                        color: #fff;
+                        padding: 10px;
+                        line-height: 20px;
+                        padding-left: 50px;
+                        padding-right: 50px;
+                        border-radius: 20px;
+                        font-weight: bold;
+                    }
+                    .or {
+                        display: inline-block;
+                        padding: 30px;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        line-height: 20px;
+                    }
+                    .blue-link {
+                        display: inline-block;
+                        color: #3F36A7;
+                        text-decoration: none;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        line-height: 20px;
+                    }
